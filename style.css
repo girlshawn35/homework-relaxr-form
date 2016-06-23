@@ -1,0 +1,83 @@
+html {
+	background: url(images/background-01.png);
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	width: 800px;
+	margin: 25px auto;
+	box-shadow: 0 5px 50px rgba(0, 0, 0, 0.22);
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+h1 {
+	text-align: center;
+	background: #033048;
+	color: white;
+	font-size: 20px;
+	font-weight: 100px;
+	line-height: 75px;
+	border-radius: 5px 5px 0 0;
+	margin: 0;
+	/*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);*/
+	border-width: 1px;
+	border-style: solid;
+	border-color: #033048;
+}
+form {
+	background: rgba(255, 255, 255, 0.6);
+  	border-radius: 0 0 5px 5px;
+  	border: 1px solid #959595;
+  	border-top-width: 0;
+  	padding: 25px 25px 26px;
+}
+fieldset {
+	margin: 0;
+	padding: 10px;
+	border: 0;
+  	position: relative;
+  	margin-bottom: 15px;
+  	margin-top: 15px;
+}
+fieldset:not(:first-child) {
+	margin-top: 25px;
+}
+textarea {
+	height: 100px;
+	width: 500px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+textarea, input[type="text"], select {
+  border: 1px solid #BCBCBC;
+  padding: 6px;
+  margin: 0;
+  background: #FFF9E2;
+  border-radius: 4px;
+  font-size: 14px;
+}
+input[type="text"], select.states {
+	width: 500px;
+	height: 20px;
+	margin: 15px 0 0;
+}
+label {
+	text-align: left;
+	width: 500px;
+}
+.form-row {
+  /*padding-left: 130px;*/
+  position: relative;
+  margin-bottom: 15px;
+}
+/*.text-input {
+	width: 200px;
+	display: inline-block;
+}*/
+
+
+
+

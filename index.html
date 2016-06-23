@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sign up now!</title>
+
+		<link rel="stylesheet" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+	<header>
+	<h1>Sign Up Now!</h1>
+	</header>
+
+	<form>
+		<fieldset class="form-row">
+			<label type="name">Name</label>
+			<div class="text-input">
+			<input type="text" placeholder="Jane Doe"><br>
+			</div>
+			<label type="email">Email</label>
+			<div class="text-input">
+			<input type="text" placeholder="hello@yahoo.com"><br>
+			</div>
+			<label type="text">Phone</label>
+			<div class="text-input">
+			<input type="text" placeholder="909-123-4567"><br>
+			</div>
+			<label>State</label>
+			</div>
+			<div class="text-input">
+			<select class="states" name="selectState"><option>ST</option>
+			</select><br>
+			</div>
+			<label type="password">Password</label>
+			<div class="text-input">
+			<input type="text"><br>	
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<label>Which service are you interested in?</label>
+			<input type="radio" name="relaxing" value="Relaxing">Relaxing
+			<input type="radio" name="email" value="email">Email
+			<input type="radio" name="phone" value="phone">Phone
+			<br>
+			<input type="checkbox" name="terms" value="terms">I agree to the terms
+		</fieldset>
+		<button type="button">Register Now!</button>
+
+	<script src="script.js"></script>
+</body>
+</html>
