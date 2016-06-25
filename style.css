@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	width: 600px;
+	width: 800px;
 	margin: 25px auto;
 	box-shadow: 0 5px 50px rgba(0, 0, 0, 0.22);
 	border-radius: 5px;
@@ -58,15 +58,17 @@ textarea, input[type="text"], select {
   background: #FFF9E2;
   border-radius: 4px;
   font-size: 14px;
+  float: right;
 }
 input[type="text"], select.states {
 	width: 500px;
 	height: 20px;
-	margin: 10px 0 10px 0;
+	margin: -10px 0 10px 0;
 }
 label {
 	text-align: left;
 	width: 500px;
+	float: left;
 }
 .form-row {
   /*padding-left: 130px;*/
